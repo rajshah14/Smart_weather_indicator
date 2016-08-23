@@ -99,10 +99,10 @@ def get_forecast_data(entered_location):
 	"""
 	Extracts predicted weather data from openweathermaps API based on the entered location for next 4 days
 	Args:
-		entered_location: location for the current data is required
+		entered_location: location for which the predicted data is required
 	
 	Returns:
-		j: json object which has the current weather data
+		j: json object which has the predicted weather data
 
 	Raises:
 		ValueError: raises an server error if the entered location is not present in the json file
@@ -187,8 +187,12 @@ def get_forecast_data(entered_location):
 	
 def get_data(entered_location):
 	"""
-	Used to get the weather details required for our project...
-	Returns a dictionary from which details can be extracted easily...
+	Extracts weather data for the location entered by user and calls approriate function
+	Args:
+		entered_location: location for which both current and predicted weather data is required
+	
+	Returns:
+		all_weather_data: complete dictionary having both current and predicted weather data
 	"""
 	try:
 		all_weather_data = {}
