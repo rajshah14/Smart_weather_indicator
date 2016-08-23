@@ -28,3 +28,8 @@ License
 
 The project is licensed under the BSD license.
 Copyright Raj Shah 2016
+
+Note
+-------
+
+DO NOT FORGET TO PUT THE 'city.list.json' IN THE SAME LOCATION AS YOUR PROGRAM BEFORE RUNNING THE PROGRAM
