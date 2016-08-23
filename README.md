@@ -15,7 +15,14 @@ Installation
 
 Install $Smart_weather_indicator by running:
 
-    python weather.py
+    python weather_final.py
+
+UPDATE
+----------
+
+Install $Smart_weather_indicator by running:
+    
+    python final_weather_app.py
 
 Support
 -------
@@ -32,5 +39,9 @@ Copyright Raj Shah 2016
 Note
 -------
 
- - DO NOT FORGET TO PUT THE 'city.list.json' IN THE SAME LOCATION AS YOUR PROGRAM BEFORE RUNNING THE PROGRAM
  - You can change the API key you get from  OpenweatherAPI website for free, and replace the key in line 7
+ - Keep following files in the same directory as the final_weather_app.py
+    - 'city.list.json'
+    - 'weather_final.py'
+    - 'button.gif'
+    - 'wallpaper.gif'
