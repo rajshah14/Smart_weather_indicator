@@ -32,4 +32,5 @@ Copyright Raj Shah 2016
 Note
 -------
 
-DO NOT FORGET TO PUT THE 'city.list.json' IN THE SAME LOCATION AS YOUR PROGRAM BEFORE RUNNING THE PROGRAM
+ - DO NOT FORGET TO PUT THE 'city.list.json' IN THE SAME LOCATION AS YOUR PROGRAM BEFORE RUNNING THE PROGRAM
+ - You can change the API key you get from  OpenweatherAPI website for free, and replace the key in line 7
