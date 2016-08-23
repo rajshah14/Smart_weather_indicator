@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from weather_final import * #python file made to retrieve data from openweathermaps
+from weather_final import * 
 import re 
 import tkMessageBox
 
