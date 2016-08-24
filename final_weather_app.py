@@ -5,6 +5,11 @@ import tkMessageBox
 
 
 def do_operation():
+    """
+    Function to collect the data from the API, based on the location entered.
+    Creates a tkinter window to display both current and 4 days, predicted data.
+    Returns dictionry having current and predicted weather data.
+    """
     city = entry.get()
     try:
         low_value = 0
@@ -192,6 +197,11 @@ def match_entered_text(fieldValue, acListEntry):
 
 
 class AutocompleteEntry(Entry):
+    """
+    It is used while entering the data in the text box for getting name of the location.
+    Predicts the closest matches of the names of the city based on the letters entered by the user.
+    Allow user to scroll through the list of closest matches using up and down arrow keys on the keyboard.
+    """
     def __init__(self, all_city_list, *args, **kwargs):
         if 'listboxLength' in kwargs:
             self.listboxLength = kwargs['listboxLength']
